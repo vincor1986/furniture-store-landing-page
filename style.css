@@ -1011,6 +1011,20 @@ body {
   }
 }
 
+@media (max-width: 750px) {
+  .forms-wrapper {
+    width: 36rem;
+  }
+
+  .fullname-inputs-wrapper {
+    width: 60%;
+  }
+
+  .form-input {
+    width: 65%;
+  }
+}
+
 @media (max-width: 685px) {
   .first-nav-link {
     font-size: 1.1rem;
@@ -1078,6 +1092,29 @@ body {
 
   .contact-heading {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .forms-wrapper {
+    width: 60%;
+  }
+
+  .fullname-inputs-wrapper {
+    width: 26rem;
+  }
+
+  .form-input {
+    width: 26rem;
+  }
+
+  .form-btn {
+    margin: 6rem;
+  }
+
+  .sign-up-form {
+    position: relative;
+    width: 26rem;
   }
 }
 
